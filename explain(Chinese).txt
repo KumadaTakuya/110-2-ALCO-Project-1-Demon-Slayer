@@ -1,0 +1,14 @@
+程式由s1091509所寫
+github網址:https://github.com/KumadaTakuya/110-2-ALCO-Project-1-Demon-Slayer
+
+由main進入後
+s2 ~ s5儲存一些需要用到的常數，
+接著將Input的存入到s6，並進到function。
+進到F的function後會進行一連串比大小的動作，
+如果符合條件就回進入該層。
+
+在L1~L3中，會再次呼叫其他function，
+這時會先把資訊儲存在動態記憶體上(移動sp)，
+跑完回function後，s6會是function的結果，這時候再把先前存起來的值給call出來。
+
+跑完所有function後，就會輸出最後的結果了。
